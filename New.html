@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Portfolio.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+
+    </nav>
+
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I  AM <br>  Manjunadh Ganta</h1>
+        </div>
+    </section>
+    
+    <section id="about">
+        <h1 class="headings">ABOUT ME</h1>
+        <div id="pic">   
+            <img src="Manjunadh.JPG" alt="Manjunadh ">
+            <div id="intro">
+                <h2>Manjunadh Ganta</h2>
+                <p>Hello Friends, This is Manjunadh Ganta currently pursuing B.tech in <abbr title="Vellore Institute Of Technology"> VIT</abbr>-AP. I am currently learning C, HTML and Python.
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <section id="portfolio">
+        <h1 class="headings">Portfolio</h1>
+        <div class="gallery">
+            <img src="python 2.jpg" alt="C">
+            <img src="HTML.jpg" alt="C">
+            <img src="C lang.jpg" alt="C">
+        </div>
+    </section>
+    <sections id="works">
+        <h1 class="headings">Works</h1>
+        <div class="row">
+            <div class="box">
+                <img src="editing.png" alt="Photo Editing">
+                <h1 class="headings">Photo Editing</h1>
+                <p>Can do photo editing</p>
+            </div>
+            <div class="box">
+                <img src="video.png" alt="Video Editing">
+                <h1 class="headings">Video Editing</h1>
+                <p>Can edit the videos</p>
+            </div>
+            <div class="box">
+                <img src="poster.png" alt="Poster Design">
+                <h1 class="headings">Poster Design</h1>
+                <p>Can design various types of posters</p>
+            </div>
+        </div>
+    </sections>
+
+    <section id="contact">
+        <h1 class="headings">Contact</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="Send" id="send">
+        </form>
+    </section>
+
+</body>
+</html>
